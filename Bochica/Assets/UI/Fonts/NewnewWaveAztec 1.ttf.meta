@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 2697240f5359f3348a1f0089deb84894
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - New Wave Aztec
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: fbe5826b4f63b0847a2e0ed0c22f91fe, type: 3}
+  - {fileID: 12800000, guid: c7c1b874fe4f18448b298aa53d499794, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
