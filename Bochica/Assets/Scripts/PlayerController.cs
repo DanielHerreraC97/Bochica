@@ -88,9 +88,10 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         if (collision.CompareTag("Ceiling"))
         {
-
+            PlayDeathSound();
             animator.SetTrigger("Die");
            // indigenous.SetActive(false);
+
         }
     }
 
@@ -101,6 +102,6 @@ public class PlayerController : MonoBehaviour  //BOCHICA
 
     private void PlayDeathSound()
     {
-
+        deathSound.Play();
     }
 }
