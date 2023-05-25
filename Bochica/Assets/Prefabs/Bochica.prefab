@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 2590982864423299138}
   - component: {fileID: 8715129036351325736}
   m_Layer: 0
-  m_Name: Player Sonido
+  m_Name: Bochica
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
