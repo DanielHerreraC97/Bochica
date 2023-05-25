@@ -15,6 +15,9 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     public Rigidbody2D rb2d;
     public Animator animator;
 
+    [SerializeField] private AudioSource jumpSound;
+    [SerializeField] private AudioSource deathSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -30,6 +33,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
         //Jump
         if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
+            PlayJumpSound();
             rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
             animator.SetTrigger("Jump");
         }
@@ -83,7 +87,18 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         if (collision.CompareTag("Ceiling"))
         {
+
             animator.SetTrigger("Die");
         }
+    }
+
+    private void PlayJumpSound()
+    {
+        jumpSound.Play();
+    }
+
+    private void PlayDeathSound()
+    {
+
     }
 }
