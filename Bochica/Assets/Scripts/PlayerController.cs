@@ -6,9 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour  //BOCHICA
 {
-    public float speed = 2f;
+    public float speed;
     public bool grounded;
-    public float jumpPower = 6.5f;
+    public float jumpPower;
     private bool right; 
 
 
@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        ScoreManager.SetValues(0, 3);
+        ScoreManager.SetValues(0, 9);
     }
 
     // Update is called once per frame
