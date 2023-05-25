@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,6 +19,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
 
     [SerializeField] private AudioSource jumpSound;
     [SerializeField] private AudioSource deathSound;
+    [SerializeField] private AudioSource pickUpSound;
 
     // Start is called before the first frame update
     void Start()
@@ -93,7 +95,14 @@ public class PlayerController : MonoBehaviour  //BOCHICA
            // indigenous.SetActive(false);
 
         }
+
+        if (collision.CompareTag("Item"))
+        {
+            pickUpSound.Play();
+        }
     }
+
+
 
     private void PlayJumpSound()
     {

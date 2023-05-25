@@ -559,7 +559,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -663, y: -139}
+  m_AnchoredPosition: {x: -654.2, y: -151.2}
   m_SizeDelta: {x: 169.4549, y: 129.8484}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &592663482
@@ -584,8 +584,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 0
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4b87b5b44d0bbe74d961d27b9c270bda, type: 2}
+  m_sharedMaterial: {fileID: -6103452533214544197, guid: 4b87b5b44d0bbe74d961d27b9c270bda, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -726,6 +726,14 @@ PrefabInstance:
     - target: {fileID: 2639111026563086319, guid: dc97cb25cb811cc4e9b1d2111b3ad9ae, type: 3}
       propertyPath: m_Name
       value: Player Sonido
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715129036351325736, guid: dc97cb25cb811cc4e9b1d2111b3ad9ae, type: 3}
+      propertyPath: m_Volume
+      value: 0.26
+      objectReference: {fileID: 0}
+    - target: {fileID: 8715129036351325736, guid: dc97cb25cb811cc4e9b1d2111b3ad9ae, type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc97cb25cb811cc4e9b1d2111b3ad9ae, type: 3}
