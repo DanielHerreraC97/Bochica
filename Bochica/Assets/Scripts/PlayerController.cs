@@ -14,6 +14,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
 
     public Rigidbody2D rb2d;
     public Animator animator;
+    public GameObject indigenous;
 
     // Start is called before the first frame update
     void Start()
@@ -41,14 +42,14 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     //Validate Ground
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag ("Grounded"))
+        if (collision.gameObject.CompareTag("Grounded"))
         {
             grounded = true;
         }
     }
     private void OnCollisionExit2D(Collision2D collisionpiso)
     {
-        if (collisionpiso.gameObject.CompareTag ("Grounded"))
+        if (collisionpiso.gameObject.CompareTag("Grounded"))
         {
             grounded = false;
         }
@@ -84,6 +85,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
         if (collision.CompareTag("Ceiling"))
         {
             animator.SetTrigger("Die");
+           // indigenous.SetActive(false);
         }
     }
 }
