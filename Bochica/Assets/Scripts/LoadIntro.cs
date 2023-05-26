@@ -1,16 +1,25 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class LoadIntro : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public SpriteRenderer sprite;
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    public void ChangeScene()
+    {
+        Camera.main.DOOrthoSize(-0.8f, 6);
+        sprite.DOFade(1, 6).OnComplete(() =>
+        {
+            SceneManager.LoadScene("Introduction");
+        });
+    }
     void Update()
     {
         
