@@ -6,8 +6,7 @@ using TMPro;
 
 public class ScoreManager : MonoBehaviour 
 {
-    static int currentScore;
-    static int endScore;
+    public int currentScore;
     public TextMeshProUGUI textItems;
 
     public void Start()
@@ -17,29 +16,23 @@ public class ScoreManager : MonoBehaviour
 
     public void Update()
     {
+        //Shows the number of items
         textItems.text = currentScore.ToString("0");
     }
-    //Puntutación Inicial y Final
-    public static void SetValues(int newCurrentScore, int newEndScore)
-    {
-        currentScore = newCurrentScore;
-        endScore = newEndScore;
-    }
 
-    //Sumar puntos
-    public static void AddScore(int scoreAmmount)
+    //Add items
+    public void AddItem(int scoreAmmount)
     {
-        if(currentScore + scoreAmmount >= endScore)
+        if(currentScore ==  9)
         {
-            currentScore = endScore;
+            currentScore += scoreAmmount;
             Debug.Log("Congratulations!");
         }
         else
         {
             currentScore += scoreAmmount;
-            Debug.Log(scoreAmmount);
         }
-    
+        
     }
-    
+
 }

@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class Item : MonoBehaviour
 {
@@ -9,11 +8,12 @@ public class Item : MonoBehaviour
     public AudioSource pickUpSound;
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        //Pick up item
         if (collision.CompareTag("Player"))
         {
             pickUpSound.Play();
-            Debug.Log("Pglo");
-            ScoreManager.AddScore(items);
+            ScoreManager scoreManager = FindObjectOfType<ScoreManager>();
+            scoreManager.AddItem(items);
             Destroy(this.gameObject);
         }
     }

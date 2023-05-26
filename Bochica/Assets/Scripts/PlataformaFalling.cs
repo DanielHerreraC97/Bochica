@@ -1,51 +1,41 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlataformaFalling : MonoBehaviour
 {
 
-    public float fallDelay = 1f;
-    public float respawnDelay = 5f;
+    public float fallDelay;
 
     private Rigidbody2D rb2d;
-    private PolygonCollider2D pc2d;
-    private Vector3 start;
+    private Collider2D cd2d;
+    private ScoreManager scoreManager;
+    public int requireQuantity;
+
 
     // Start is called before the first frame update
     void Start()
     {
         rb2d = GetComponent<Rigidbody2D>();
-        pc2d = GetComponent<PolygonCollider2D>();
-        start = transform.position;
+        cd2d = GetComponent<Collider2D>();
+        scoreManager = FindObjectOfType<ScoreManager>();
     }
 
-    // Update is called once per frame
-    void Update()
+    private void Update()
     {
-        
-    }
-    void OnCollisionEnter2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Player"))
+        //Valid the require quantity of items for the platform fail
+        if (scoreManager.currentScore == requireQuantity) 
         {
-            Invoke("fall", fallDelay);
-            Invoke("Respawn", fallDelay + respawnDelay);
+            Fall();
         }
     }
-
-    void fall()
+    //Platform Fail
+    public void Fall()
     {
-        rb2d.isKinematic = false;
-        pc2d.isTrigger = true;
-    }
-
-    void Respawn()  
-    {
-        transform.position = start;
-        rb2d.isKinematic = true; 
-        rb2d.velocity = Vector3.zero;
-        pc2d.isTrigger = false;
+     rb2d.isKinematic = false;
+     cd2d.isTrigger = true;
     }
 }
 

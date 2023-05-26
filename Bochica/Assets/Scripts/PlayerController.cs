@@ -10,8 +10,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     public float speed;
     public bool grounded;
     public float jumpPower;
-    private bool right; 
-
+    private bool right;
 
     public Rigidbody2D rb2d;
     public Animator animator;
@@ -26,7 +25,6 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         rb2d = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        ScoreManager.SetValues(0, 9);
     }
 
     // Update is called once per frame
@@ -45,7 +43,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         PlayerMove();
     }
-    //Validate Ground
+    //Valid Ground
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Grounded"))
@@ -92,8 +90,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
         {
             PlayDeathSound();
             animator.SetTrigger("Die");
-           // indigenous.SetActive(false);
-
+            StartCoroutine(ActiveDie());
         }
 
         if (collision.CompareTag("Item"))
@@ -101,16 +98,23 @@ public class PlayerController : MonoBehaviour  //BOCHICA
             pickUpSound.Play();
         }
     }
-
-
-
+    //Sound Player Jump
     private void PlayJumpSound()
     {
         jumpSound.Play();
     }
-
+    //Sound Player Die
     private void PlayDeathSound()
     {
         deathSound.Play();
     }
+    //Desactivate Player
+    IEnumerator ActiveDie()
+    {
+        float timeDie = 1f;
+        yield return new WaitForSeconds(timeDie);
+        indigenous.SetActive(false);
+    }
 }
+
+
