@@ -122,7 +122,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 208
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -141,9 +141,9 @@ TextureImporter:
       name: inca_back_1
       rect:
         serializedVersion: 2
-        x: 16
+        x: 32
         y: 208
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,9 +162,9 @@ TextureImporter:
       name: inca_back_2
       rect:
         serializedVersion: 2
-        x: 32
+        x: 64
         y: 208
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -183,9 +183,9 @@ TextureImporter:
       name: inca_back_3
       rect:
         serializedVersion: 2
-        x: 48
+        x: 96
         y: 208
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -204,9 +204,9 @@ TextureImporter:
       name: inca_back_4
       rect:
         serializedVersion: 2
-        x: 64
+        x: 128
         y: 208
-        width: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -225,9 +225,9 @@ TextureImporter:
       name: inca_back_5
       rect:
         serializedVersion: 2
-        x: 80
-        y: 208
-        width: 16
+        x: 0
+        y: 192
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,9 +246,9 @@ TextureImporter:
       name: inca_back_6
       rect:
         serializedVersion: 2
-        x: 96
-        y: 208
-        width: 16
+        x: 32
+        y: 192
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -267,9 +267,9 @@ TextureImporter:
       name: inca_back_7
       rect:
         serializedVersion: 2
-        x: 112
-        y: 208
-        width: 16
+        x: 64
+        y: 192
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -288,9 +288,9 @@ TextureImporter:
       name: inca_back_8
       rect:
         serializedVersion: 2
-        x: 128
-        y: 208
-        width: 16
+        x: 96
+        y: 192
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -309,9 +309,9 @@ TextureImporter:
       name: inca_back_9
       rect:
         serializedVersion: 2
-        x: 144
-        y: 208
-        width: 16
+        x: 128
+        y: 192
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -331,8 +331,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 192
-        width: 16
+        y: 176
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -351,9 +351,9 @@ TextureImporter:
       name: inca_back_11
       rect:
         serializedVersion: 2
-        x: 16
-        y: 192
-        width: 16
+        x: 32
+        y: 176
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -372,9 +372,9 @@ TextureImporter:
       name: inca_back_12
       rect:
         serializedVersion: 2
-        x: 32
-        y: 192
-        width: 16
+        x: 64
+        y: 176
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -393,9 +393,9 @@ TextureImporter:
       name: inca_back_13
       rect:
         serializedVersion: 2
-        x: 48
-        y: 192
-        width: 16
+        x: 96
+        y: 176
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -414,9 +414,9 @@ TextureImporter:
       name: inca_back_14
       rect:
         serializedVersion: 2
-        x: 64
-        y: 192
-        width: 16
+        x: 128
+        y: 176
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -435,9 +435,9 @@ TextureImporter:
       name: inca_back_15
       rect:
         serializedVersion: 2
-        x: 80
-        y: 192
-        width: 16
+        x: 0
+        y: 160
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -456,9 +456,9 @@ TextureImporter:
       name: inca_back_16
       rect:
         serializedVersion: 2
-        x: 96
-        y: 192
-        width: 16
+        x: 32
+        y: 160
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -477,9 +477,9 @@ TextureImporter:
       name: inca_back_17
       rect:
         serializedVersion: 2
-        x: 112
-        y: 192
-        width: 16
+        x: 64
+        y: 160
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -498,9 +498,9 @@ TextureImporter:
       name: inca_back_18
       rect:
         serializedVersion: 2
-        x: 128
-        y: 192
-        width: 16
+        x: 96
+        y: 160
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -519,9 +519,9 @@ TextureImporter:
       name: inca_back_19
       rect:
         serializedVersion: 2
-        x: 144
-        y: 192
-        width: 16
+        x: 128
+        y: 160
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -541,8 +541,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 176
-        width: 16
+        y: 144
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -561,9 +561,9 @@ TextureImporter:
       name: inca_back_21
       rect:
         serializedVersion: 2
-        x: 16
-        y: 176
-        width: 16
+        x: 32
+        y: 144
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -582,9 +582,9 @@ TextureImporter:
       name: inca_back_22
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
-        width: 16
+        x: 64
+        y: 144
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -603,9 +603,9 @@ TextureImporter:
       name: inca_back_23
       rect:
         serializedVersion: 2
-        x: 48
-        y: 176
-        width: 16
+        x: 96
+        y: 144
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -624,9 +624,9 @@ TextureImporter:
       name: inca_back_24
       rect:
         serializedVersion: 2
-        x: 64
-        y: 176
-        width: 16
+        x: 128
+        y: 144
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -645,9 +645,9 @@ TextureImporter:
       name: inca_back_25
       rect:
         serializedVersion: 2
-        x: 80
-        y: 176
-        width: 16
+        x: 0
+        y: 128
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -666,9 +666,9 @@ TextureImporter:
       name: inca_back_26
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
-        width: 16
+        x: 32
+        y: 128
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -687,9 +687,9 @@ TextureImporter:
       name: inca_back_27
       rect:
         serializedVersion: 2
-        x: 112
-        y: 176
-        width: 16
+        x: 64
+        y: 128
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -708,9 +708,9 @@ TextureImporter:
       name: inca_back_28
       rect:
         serializedVersion: 2
-        x: 128
-        y: 176
-        width: 16
+        x: 96
+        y: 128
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -729,9 +729,9 @@ TextureImporter:
       name: inca_back_29
       rect:
         serializedVersion: 2
-        x: 144
-        y: 176
-        width: 16
+        x: 128
+        y: 128
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -751,8 +751,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 160
-        width: 16
+        y: 112
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -771,9 +771,9 @@ TextureImporter:
       name: inca_back_31
       rect:
         serializedVersion: 2
-        x: 16
-        y: 160
-        width: 16
+        x: 32
+        y: 112
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -792,9 +792,9 @@ TextureImporter:
       name: inca_back_32
       rect:
         serializedVersion: 2
-        x: 32
-        y: 160
-        width: 16
+        x: 64
+        y: 112
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -813,9 +813,9 @@ TextureImporter:
       name: inca_back_33
       rect:
         serializedVersion: 2
-        x: 48
-        y: 160
-        width: 16
+        x: 96
+        y: 112
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -834,9 +834,9 @@ TextureImporter:
       name: inca_back_34
       rect:
         serializedVersion: 2
-        x: 64
-        y: 160
-        width: 16
+        x: 128
+        y: 112
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -855,9 +855,9 @@ TextureImporter:
       name: inca_back_35
       rect:
         serializedVersion: 2
-        x: 80
-        y: 160
-        width: 16
+        x: 0
+        y: 96
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -876,9 +876,9 @@ TextureImporter:
       name: inca_back_36
       rect:
         serializedVersion: 2
-        x: 96
-        y: 160
-        width: 16
+        x: 32
+        y: 96
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -897,9 +897,9 @@ TextureImporter:
       name: inca_back_37
       rect:
         serializedVersion: 2
-        x: 112
-        y: 160
-        width: 16
+        x: 64
+        y: 96
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -918,9 +918,9 @@ TextureImporter:
       name: inca_back_38
       rect:
         serializedVersion: 2
-        x: 128
-        y: 160
-        width: 16
+        x: 96
+        y: 96
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -939,9 +939,9 @@ TextureImporter:
       name: inca_back_39
       rect:
         serializedVersion: 2
-        x: 144
-        y: 160
-        width: 16
+        x: 128
+        y: 96
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -961,8 +961,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 144
-        width: 16
+        y: 80
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -971,7 +971,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca9e7fc60b022a64d940720edbca9a1d
+      spriteID: 757ce2227eb976d41a07bf9c5e1bd0c7
       internalID: 302326320
       vertices: []
       indices: 
@@ -981,9 +981,9 @@ TextureImporter:
       name: inca_back_41
       rect:
         serializedVersion: 2
-        x: 16
-        y: 144
-        width: 16
+        x: 32
+        y: 80
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -992,7 +992,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 72d5e156a384d904288bc0527912024a
+      spriteID: 11bbca092be6c7b47bfb8d049fad8f40
       internalID: -747087340
       vertices: []
       indices: 
@@ -1002,9 +1002,9 @@ TextureImporter:
       name: inca_back_42
       rect:
         serializedVersion: 2
-        x: 32
-        y: 144
-        width: 16
+        x: 64
+        y: 80
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1013,7 +1013,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0648a7a993b1bc3409a1b24a79f2c1be
+      spriteID: 08a5fd3d5c581db4b84787aa2d542ca5
       internalID: -498452986
       vertices: []
       indices: 
@@ -1023,9 +1023,9 @@ TextureImporter:
       name: inca_back_43
       rect:
         serializedVersion: 2
-        x: 48
-        y: 144
-        width: 16
+        x: 96
+        y: 80
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1034,7 +1034,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fdd2a13de1b83274887c2a5edb861d4e
+      spriteID: 58025e23565778d4c853f4c159ba1a60
       internalID: 72863696
       vertices: []
       indices: 
@@ -1044,9 +1044,9 @@ TextureImporter:
       name: inca_back_44
       rect:
         serializedVersion: 2
-        x: 64
-        y: 144
-        width: 16
+        x: 128
+        y: 80
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1055,7 +1055,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9f142b5786d27dd42847ece6b70e53b8
+      spriteID: b27287dc27868984d9de0a661c74e9d4
       internalID: 444058900
       vertices: []
       indices: 
@@ -1065,9 +1065,9 @@ TextureImporter:
       name: inca_back_45
       rect:
         serializedVersion: 2
-        x: 80
-        y: 144
-        width: 16
+        x: 0
+        y: 64
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1076,7 +1076,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fc80f72bfff8a9e4ebc9c0c7b71424aa
+      spriteID: 5d82b74b327f44e47b82f618f70b65e3
       internalID: 784349617
       vertices: []
       indices: 
@@ -1086,9 +1086,9 @@ TextureImporter:
       name: inca_back_46
       rect:
         serializedVersion: 2
-        x: 96
-        y: 144
-        width: 16
+        x: 32
+        y: 64
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1097,7 +1097,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd15e557b43e0a74fb1fc82e3f2d17d4
+      spriteID: c5e1f718b030d244eb13594fe1b3fbd5
       internalID: -844862718
       vertices: []
       indices: 
@@ -1107,9 +1107,9 @@ TextureImporter:
       name: inca_back_47
       rect:
         serializedVersion: 2
-        x: 112
-        y: 144
-        width: 16
+        x: 64
+        y: 64
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1118,7 +1118,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e0b2514b02110948b3e97097b6de2df
+      spriteID: 36eb2989342402242b50e901677949b4
       internalID: 300261733
       vertices: []
       indices: 
@@ -1128,9 +1128,9 @@ TextureImporter:
       name: inca_back_48
       rect:
         serializedVersion: 2
-        x: 128
-        y: 144
-        width: 16
+        x: 96
+        y: 64
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1139,7 +1139,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 65a50ae44868a6245933f7962abe803f
+      spriteID: 9118fbf24c354e34ca059f9d9b3152ca
       internalID: 1491588857
       vertices: []
       indices: 
@@ -1149,9 +1149,9 @@ TextureImporter:
       name: inca_back_49
       rect:
         serializedVersion: 2
-        x: 144
-        y: 144
-        width: 16
+        x: 128
+        y: 64
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1160,7 +1160,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 608479b17aaf8ec48b58b039d579498b
+      spriteID: 2fa3e40d5ae77884fbb99a1b9755d8fc
       internalID: 110141396
       vertices: []
       indices: 
@@ -1171,8 +1171,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 128
-        width: 16
+        y: 48
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1181,7 +1181,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5034896e673c4984388957764395f8a4
+      spriteID: 5e5a5b37ce710794aacd1990c373bcb7
       internalID: -328211812
       vertices: []
       indices: 
@@ -1191,9 +1191,9 @@ TextureImporter:
       name: inca_back_51
       rect:
         serializedVersion: 2
-        x: 16
-        y: 128
-        width: 16
+        x: 32
+        y: 48
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1202,7 +1202,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2b885885e0d64cc4c8ff5f13d988c1d2
+      spriteID: 0c8d94f2617fc6542998f8ac0126e5ae
       internalID: 2020671941
       vertices: []
       indices: 
@@ -1212,9 +1212,9 @@ TextureImporter:
       name: inca_back_52
       rect:
         serializedVersion: 2
-        x: 32
-        y: 128
-        width: 16
+        x: 64
+        y: 48
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1223,7 +1223,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6502e2ce4c10ee9408ebdfb2fa4b3a25
+      spriteID: 2e88c245ef4559d4885d058ef400ff04
       internalID: 1388085125
       vertices: []
       indices: 
@@ -1233,9 +1233,9 @@ TextureImporter:
       name: inca_back_53
       rect:
         serializedVersion: 2
-        x: 48
-        y: 128
-        width: 16
+        x: 96
+        y: 48
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1244,7 +1244,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28db5a6b76aaf80429e8891ef4312f99
+      spriteID: 59d868b80dcdd6b4992c37480e4d9188
       internalID: 729805696
       vertices: []
       indices: 
@@ -1254,9 +1254,9 @@ TextureImporter:
       name: inca_back_54
       rect:
         serializedVersion: 2
-        x: 64
-        y: 128
-        width: 16
+        x: 128
+        y: 48
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1265,7 +1265,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a5edc6d65f2a52849bf44698cc63edad
+      spriteID: d9b06ea87cdebc74ca3025e69bd1b1a5
       internalID: 653516502
       vertices: []
       indices: 
@@ -1275,9 +1275,9 @@ TextureImporter:
       name: inca_back_55
       rect:
         serializedVersion: 2
-        x: 80
-        y: 128
-        width: 16
+        x: 0
+        y: 32
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1286,7 +1286,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 958b479547851cb4386201d3d5dd06b2
+      spriteID: e4c20554d873057489b44bb62bdfac79
       internalID: -1398153989
       vertices: []
       indices: 
@@ -1296,9 +1296,9 @@ TextureImporter:
       name: inca_back_56
       rect:
         serializedVersion: 2
-        x: 96
-        y: 128
-        width: 16
+        x: 32
+        y: 32
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1307,7 +1307,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 066110789e792ad40862e1aae06020f1
+      spriteID: 6a50faba653be9a4fa9ff553df602733
       internalID: 1086217087
       vertices: []
       indices: 
@@ -1317,9 +1317,9 @@ TextureImporter:
       name: inca_back_57
       rect:
         serializedVersion: 2
-        x: 112
-        y: 128
-        width: 16
+        x: 64
+        y: 32
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1328,7 +1328,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 693a2c70d1bc42541b68ae85320cdca4
+      spriteID: 7814f5b7d59f24a438609c7d2ba82d85
       internalID: 344927677
       vertices: []
       indices: 
@@ -1338,9 +1338,9 @@ TextureImporter:
       name: inca_back_58
       rect:
         serializedVersion: 2
-        x: 128
-        y: 128
-        width: 16
+        x: 96
+        y: 32
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1349,7 +1349,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 081589a6e043c7042a3cc96bd42130d2
+      spriteID: b0a598a13a3eabe478b19e723b2ff73d
       internalID: -262468663
       vertices: []
       indices: 
@@ -1359,9 +1359,9 @@ TextureImporter:
       name: inca_back_59
       rect:
         serializedVersion: 2
-        x: 144
-        y: 128
-        width: 16
+        x: 128
+        y: 32
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1370,7 +1370,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 899de96d35008344c9511b867dea23e6
+      spriteID: 4df50395ca00d824999cbd5c5f0a8423
       internalID: 1940177664
       vertices: []
       indices: 
@@ -1381,8 +1381,8 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 112
-        width: 16
+        y: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1391,7 +1391,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 917f29c5af464144f92f0ef4a38b5b7f
+      spriteID: 561a3fb9cf3edf840bac24e7206950e2
       internalID: 1618394118
       vertices: []
       indices: 
@@ -1401,9 +1401,9 @@ TextureImporter:
       name: inca_back_61
       rect:
         serializedVersion: 2
-        x: 16
-        y: 112
-        width: 16
+        x: 32
+        y: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1412,7 +1412,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 107bb512210c4cb409ea735b5447cea3
+      spriteID: aeeda991fda0bdf458090d860b692b41
       internalID: -515939102
       vertices: []
       indices: 
@@ -1422,9 +1422,9 @@ TextureImporter:
       name: inca_back_62
       rect:
         serializedVersion: 2
-        x: 32
-        y: 112
-        width: 16
+        x: 64
+        y: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1433,7 +1433,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db336a9a4d812e141a406f383063572f
+      spriteID: 0ba80d9e2b726c247bc768722604c340
       internalID: 1038956203
       vertices: []
       indices: 
@@ -1443,9 +1443,9 @@ TextureImporter:
       name: inca_back_63
       rect:
         serializedVersion: 2
-        x: 48
-        y: 112
-        width: 16
+        x: 96
+        y: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1454,7 +1454,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0d55d028880c6c448e48a59ff580cf3
+      spriteID: 55d7405668caf9d429d889f01ab324f2
       internalID: 1983217452
       vertices: []
       indices: 
@@ -1464,9 +1464,9 @@ TextureImporter:
       name: inca_back_64
       rect:
         serializedVersion: 2
-        x: 64
-        y: 112
-        width: 16
+        x: 128
+        y: 16
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1475,7 +1475,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 49fc2b27691bd9044aa5afe2f65c207e
+      spriteID: 04f7b90c6a8ba334ba5d892b1a4cb780
       internalID: 1193635737
       vertices: []
       indices: 
@@ -1485,9 +1485,9 @@ TextureImporter:
       name: inca_back_65
       rect:
         serializedVersion: 2
-        x: 80
-        y: 112
-        width: 16
+        x: 0
+        y: 0
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1496,7 +1496,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f71a869dddaaa3b41b3af18cd8af05b8
+      spriteID: a4427c0e60cb15344bc7b87edf296a81
       internalID: -1409245770
       vertices: []
       indices: 
@@ -1506,9 +1506,9 @@ TextureImporter:
       name: inca_back_66
       rect:
         serializedVersion: 2
-        x: 96
-        y: 112
-        width: 16
+        x: 32
+        y: 0
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1517,7 +1517,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3a25041dac9d21499a121ab0abfc1c1
+      spriteID: c112499cf48aeee46800e49f6bc0ac4a
       internalID: 1776921783
       vertices: []
       indices: 
@@ -1527,9 +1527,9 @@ TextureImporter:
       name: inca_back_67
       rect:
         serializedVersion: 2
-        x: 112
-        y: 112
-        width: 16
+        x: 64
+        y: 0
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1538,7 +1538,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1a2fbb405cf0a184487881b2560e7179
+      spriteID: fcd3540b59657134e9e1e3469ab3900c
       internalID: 1529351737
       vertices: []
       indices: 
@@ -1548,9 +1548,9 @@ TextureImporter:
       name: inca_back_68
       rect:
         serializedVersion: 2
-        x: 128
-        y: 112
-        width: 16
+        x: 96
+        y: 0
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1559,7 +1559,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 325352d0ee31ddf43a97010112bbf131
+      spriteID: 25154b49166633e4fa75c726efb6d9fa
       internalID: -1284986337
       vertices: []
       indices: 
@@ -1569,9 +1569,9 @@ TextureImporter:
       name: inca_back_69
       rect:
         serializedVersion: 2
-        x: 144
-        y: 112
-        width: 16
+        x: 128
+        y: 0
+        width: 32
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -1580,1478 +1580,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aad45a19cbd25324ebe5c176f4087706
+      spriteID: 95635abcc879efa42b407cefc4bea63f
       internalID: -1520485481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_70
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cbbb66d110c5ef74181324d92157f7d0
-      internalID: 237964826
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_71
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bb5bb0e125005b245abd3d7db390526f
-      internalID: 855867335
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_72
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08fe1918588afc84cb4902d2d26d538d
-      internalID: 285562868
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_73
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 852c9ed5078d6024c9a0d2d9bd2ae221
-      internalID: -269157185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_74
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 46990e115f0d4ab4186ab5d7c2c04290
-      internalID: -222296752
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_75
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f72e18c9c7c17604ca0c29003bf4b0e4
-      internalID: 678353040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_76
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8762d7276c2a1484eb278d35db36c7d7
-      internalID: 1343712037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_77
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1af26951fc3d3da4a9ebba25117e42e1
-      internalID: 1414483953
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_78
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c983453390b41ce4eb9b5d36521368f6
-      internalID: 928603062
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_79
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 96
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4da8c8e517d00944fa04fc8585120489
-      internalID: -1588091682
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_80
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 90468382ea54d824d920a3e559fef56d
-      internalID: 228818703
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_81
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 896ab01fda2f8664391ea34be234df37
-      internalID: 1416403508
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_82
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b789d867788e4fa40b9f5f84b034c78e
-      internalID: 290963779
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_83
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a2855fe11bc8ffb4f8cab2a6a95c9216
-      internalID: 1384765314
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_84
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 40575df8559049d47ac30f59972f972b
-      internalID: 412748603
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_85
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5ceeb8fdfbcc71449a7a6be208186269
-      internalID: -898563005
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_86
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b489ac220a1fe434fa0444bc4073a602
-      internalID: 1117271704
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_87
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fbe2c76e163d2584db58366f2221ec99
-      internalID: 433275145
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_88
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c16e42cdd6043ef448575f0bb9157b6a
-      internalID: 1866691950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_89
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 80
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 55f31053e2074b54bb789f947ba53ec0
-      internalID: 1564042911
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_90
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 573bf600cf57842448fd2cfb2eeb7330
-      internalID: 262675243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_91
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 548db42caae61a0488794ba356ce259f
-      internalID: 1042157470
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_92
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3790d07a5b4eed246a75c6a72d58f02e
-      internalID: 801684222
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_93
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ecaf48fc6e85cbb459ae0d01e9ef623c
-      internalID: -1531492065
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_94
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 885a9f0a7a613f74798645d6f19a4ade
-      internalID: -1829396709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_95
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ed19cb7a42242449883cb035e41c135
-      internalID: 1339458103
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_96
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 817f867fa0e8f014380f614903f58e37
-      internalID: -258675771
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_97
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5127ef3bf6af94341970cf208e552a17
-      internalID: -968021149
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_98
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c86ae50464ccc054b8401990f111299f
-      internalID: 1140178394
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_99
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 64
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fefbb3437b83b540b56a011dae1a54f
-      internalID: -549988165
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_100
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7104107706257714687a14a8131488fe
-      internalID: 901545988
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_101
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3d664d536d5bc94ea818d114a4ec4b9
-      internalID: -1645416322
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_102
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 41ec6a5f408f33b45927fbda36dbd496
-      internalID: 281156466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_103
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f9a60aaf16a87a49b04f712e5b0b52a
-      internalID: -1565696647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_104
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52b4098b315266c4db4490042707a5d7
-      internalID: -940400135
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_105
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fbb504ba41bf7b47b7b4298fd372f50
-      internalID: 1899964210
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_106
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0be86685183321047a55c3f0ef4e9eca
-      internalID: -885474516
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_107
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7159ae0b1c79bd949819b4eada83eed8
-      internalID: 430909122
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_108
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7da9f5d96b931041ab82b85deeff8eb
-      internalID: 1003999021
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_109
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 48
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0625c6d6badd3c84bb9e89fe4f7b108f
-      internalID: -1854680176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_110
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aa472483dc97d734a806b12ef4804aa1
-      internalID: 910232666
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_111
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f26e03ae8c85aed47b2f2ae8b7600ddc
-      internalID: 551092547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_112
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 49556183dbad3b842b27bc74c80b1f4a
-      internalID: -1728836633
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_113
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f1ac36abe296de546ad44b0893e45499
-      internalID: -1181982838
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_114
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d791f48c9b46008409cef352cf2df237
-      internalID: -1532299956
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_115
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 47d3c06ef1de35645be7d65e264bbd0e
-      internalID: -816380320
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_116
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2e503a8cfa6638548905b929deb46af7
-      internalID: -883482280
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_117
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6ff2bdeab623d240b8cf25fc43d755b
-      internalID: 87465661
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_118
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7a5ecc91ab5abda4ebc20224a1d19cbc
-      internalID: -432331443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_119
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 32
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9fbb3ad24bb6c3a4da1dd019afb17016
-      internalID: 1620393802
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_120
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a14cd53061b5044899bcec8602c2d6b
-      internalID: 1584799242
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_121
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 08d8550a21eca9f4fbaa2f5ab8905a72
-      internalID: -2024168742
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_122
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9afbc5a714ec549418426b141b08f2da
-      internalID: -1669085648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_123
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cc285fd332e68f42bcbf7a44b60718f
-      internalID: -1473772218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_124
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 667b03cb5c8d3af42bfce8cd3c1f9d13
-      internalID: 1116583290
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_125
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 079c9ab1696559543a623493662dc42f
-      internalID: 131915023
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_126
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ced0f3340a885784689b635f97caf2f0
-      internalID: 1532831323
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_127
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: aeb41bb7937d9de4c944271fea8c7da9
-      internalID: 549684489
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_128
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 76dc5c20ff2e20f4192ef58019a10500
-      internalID: 1391125168
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_129
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 16
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8daa50148d3df8944a9593921b255f6f
-      internalID: 863592837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_130
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b4a9492659a52d541bc9d35960fafa08
-      internalID: 1684412865
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_131
-      rect:
-        serializedVersion: 2
-        x: 16
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9418aec312cf584419f2cf76cd2ccf63
-      internalID: 1627736013
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_132
-      rect:
-        serializedVersion: 2
-        x: 32
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5589ba9d635993845bf0f0cdb9fd1d2f
-      internalID: 1032596653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_133
-      rect:
-        serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9613b384c0f0b654e84af7c9fddd715d
-      internalID: 1995348176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_134
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ebe94ca6d96acd47862ab9b624eea18
-      internalID: 741763590
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_135
-      rect:
-        serializedVersion: 2
-        x: 80
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 663e1915539f0044b8a4594c42016472
-      internalID: 1078396256
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_136
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 92f043405c9643f47a9cf6fed6da88b2
-      internalID: 469596326
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_137
-      rect:
-        serializedVersion: 2
-        x: 112
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 660055401cb88614eb816f31a71cd7f1
-      internalID: -1264924029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_138
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3731147cfefd6be46ab707255592f340
-      internalID: -439828301
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: inca_back_139
-      rect:
-        serializedVersion: 2
-        x: 144
-        y: 0
-        width: 16
-        height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32e734e61398dd345b3cb9516f68fd85
-      internalID: 315076281
       vertices: []
       indices: 
       edges: []
@@ -3070,49 +1600,9 @@ TextureImporter:
       inca_back_0: 939184026
       inca_back_1: -700069710
       inca_back_10: 2058842861
-      inca_back_100: 901545988
-      inca_back_101: -1645416322
-      inca_back_102: 281156466
-      inca_back_103: -1565696647
-      inca_back_104: -940400135
-      inca_back_105: 1899964210
-      inca_back_106: -885474516
-      inca_back_107: 430909122
-      inca_back_108: 1003999021
-      inca_back_109: -1854680176
       inca_back_11: -1292266326
-      inca_back_110: 910232666
-      inca_back_111: 551092547
-      inca_back_112: -1728836633
-      inca_back_113: -1181982838
-      inca_back_114: -1532299956
-      inca_back_115: -816380320
-      inca_back_116: -883482280
-      inca_back_117: 87465661
-      inca_back_118: -432331443
-      inca_back_119: 1620393802
       inca_back_12: 551931392
-      inca_back_120: 1584799242
-      inca_back_121: -2024168742
-      inca_back_122: -1669085648
-      inca_back_123: -1473772218
-      inca_back_124: 1116583290
-      inca_back_125: 131915023
-      inca_back_126: 1532831323
-      inca_back_127: 549684489
-      inca_back_128: 1391125168
-      inca_back_129: 863592837
       inca_back_13: -1142331271
-      inca_back_130: 1684412865
-      inca_back_131: 1627736013
-      inca_back_132: 1032596653
-      inca_back_133: 1995348176
-      inca_back_134: 741763590
-      inca_back_135: 1078396256
-      inca_back_136: 469596326
-      inca_back_137: -1264924029
-      inca_back_138: -439828301
-      inca_back_139: 315076281
       inca_back_14: 463733361
       inca_back_15: -1744643392
       inca_back_16: -1789755130
@@ -3175,38 +1665,8 @@ TextureImporter:
       inca_back_68: -1284986337
       inca_back_69: -1520485481
       inca_back_7: 1444615475
-      inca_back_70: 237964826
-      inca_back_71: 855867335
-      inca_back_72: 285562868
-      inca_back_73: -269157185
-      inca_back_74: -222296752
-      inca_back_75: 678353040
-      inca_back_76: 1343712037
-      inca_back_77: 1414483953
-      inca_back_78: 928603062
-      inca_back_79: -1588091682
       inca_back_8: 841211178
-      inca_back_80: 228818703
-      inca_back_81: 1416403508
-      inca_back_82: 290963779
-      inca_back_83: 1384765314
-      inca_back_84: 412748603
-      inca_back_85: -898563005
-      inca_back_86: 1117271704
-      inca_back_87: 433275145
-      inca_back_88: 1866691950
-      inca_back_89: 1564042911
       inca_back_9: -1811970497
-      inca_back_90: 262675243
-      inca_back_91: 1042157470
-      inca_back_92: 801684222
-      inca_back_93: -1531492065
-      inca_back_94: -1829396709
-      inca_back_95: 1339458103
-      inca_back_96: -258675771
-      inca_back_97: -968021149
-      inca_back_98: 1140178394
-      inca_back_99: -549988165
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
