@@ -1,5 +1,6 @@
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class ImageFadeIn : MonoBehaviour
 {
@@ -7,24 +8,24 @@ public class ImageFadeIn : MonoBehaviour
     public float fadeOutDuration = 1f;
     public float fadeDelay = 0f;
 
-    private SpriteRenderer sprite;
+    private Image image;
 
     private void Start()
     {
-        sprite = GetComponent<SpriteRenderer>();
+        image = GetComponent<Image>();
 
         
-        Color spriteColor = sprite.color;
+        Color spriteColor = image.color;
         spriteColor = new Color(spriteColor.r, spriteColor.g, spriteColor.b, 0f);
-        sprite.color = spriteColor;
+        image.color = spriteColor;
 
         
-        sprite.DOFade(1f, fadeInDuration);
+        image.DOFade(1f, fadeInDuration);
 
         
         if (fadeOutDuration > 0f)
         {
-            sprite.DOFade(0f, fadeOutDuration).SetDelay(fadeDelay + fadeInDuration);
+            image.DOFade(0f, fadeOutDuration).SetDelay(fadeDelay + fadeInDuration);
         }
     }
 }
