@@ -15,10 +15,13 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     public Rigidbody2D rb2d;
     public Animator animator;
     public GameObject indigenous;
+    public event EventHandler MuerteJugador;
 
     [SerializeField] private AudioSource jumpSound;
     [SerializeField] private AudioSource deathSound;
     [SerializeField] private AudioSource pickUpSound;
+    [SerializeField] private GameObject deathSoundSource;
+
 
     // Start is called before the first frame update
     void Start()
@@ -90,7 +93,8 @@ public class PlayerController : MonoBehaviour  //BOCHICA
         {
             PlayDeathSound();
             animator.SetTrigger("Die");
-            StartCoroutine(ActiveDie());
+            StartCoroutine(ActiveDie());                      
+            MuerteJugador?.Invoke(this, EventArgs.Empty);
         }
 
         if (collision.CompareTag("Item"))
@@ -111,9 +115,10 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     //Desactivate Player
     IEnumerator ActiveDie()
     {
-        float timeDie = 1f;
+        float timeDie = 3f;
         yield return new WaitForSeconds(timeDie);
         indigenous.SetActive(false);
+
     }
 }
 
