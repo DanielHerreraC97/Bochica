@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     //Desactivate Player
     IEnumerator ActiveDie()
     {
-        float timeDie = 3f;
+        float timeDie = 2f;
         yield return new WaitForSeconds(timeDie);
         indigenous.SetActive(false);
 

@@ -14,6 +14,10 @@ public class PlataformaFalling : MonoBehaviour
     private ScoreManager scoreManager;
     public int requireQuantity;
 
+    [SerializeField]
+    private ParticleSystem dustParticle;
+    private bool hasPlayed = false;
+
 
     // Start is called before the first frame update
     void Start()
@@ -25,17 +29,33 @@ public class PlataformaFalling : MonoBehaviour
 
     private void Update()
     {
+        
+    }
+
+    private void FixedUpdate()
+    {
         //Valid the require quantity of items for the platform fail
-        if (scoreManager.currentScore == requireQuantity) 
+        if (scoreManager.currentScore == requireQuantity)
         {
             Fall();
+            dustParticle.Play();
+            StartCoroutine(ActiveParticles());
         }
+        
     }
     //Platform Fail
     public void Fall()
     {
      rb2d.isKinematic = false;
      cd2d.isTrigger = true;
+    }
+
+    IEnumerator ActiveParticles()
+    {
+        
+        yield return new WaitForSeconds(2.7f);
+        dustParticle.Clear();
+
     }
 }
 

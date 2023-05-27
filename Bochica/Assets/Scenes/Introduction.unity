@@ -901,9 +901,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328b6144d22f69646bafd8c7eedfbb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInDuration: 2
+  fadeInDuration: 0.5
   fadeOutDuration: 1
-  fadeDelay: 2
+  fadeDelay: 2.5
 --- !u!114 &292962852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1524,9 +1524,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 33173143f59cd774fbb1bdecb8cd4bcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInDuration: 2
+  fadeInDuration: 0.5
   fadeOutDuration: 1
-  fadeDelay: 2
+  fadeDelay: 2.5
 --- !u!212 &891760355 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2700141395765820072, guid: 1f262f677dd7fd34fadb23f9963a33d9, type: 3}
@@ -2583,6 +2583,7 @@ MonoBehaviour:
   textMeshPro: {fileID: 809528815}
   textMeshPro2: {fileID: 177666250}
   audioMusic: {fileID: 2110362359}
+  scene: 2
 --- !u!4 &1808577859
 Transform:
   m_ObjectHideFlags: 0
