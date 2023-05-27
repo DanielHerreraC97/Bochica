@@ -635,7 +635,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 4.261915, y: 41.024242, z: -10}
+  m_LocalPosition: {x: 4.2624297, y: 41.024242, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1179,7 +1179,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1114485689
 Transform:
   m_ObjectHideFlags: 0
@@ -52119,7 +52119,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0.1
   m_AngularDrag: 0.05
-  m_GravityScale: 0.01
+  m_GravityScale: 0.023
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
@@ -54483,6 +54483,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1361330314, guid: e6c3baaa554fb8a43ad093a7f9aab2c8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -26
+      objectReference: {fileID: 0}
+    - target: {fileID: 1967163069, guid: e6c3baaa554fb8a43ad093a7f9aab2c8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -20
+      objectReference: {fileID: 0}
     - target: {fileID: 6392822339994476057, guid: e6c3baaa554fb8a43ad093a7f9aab2c8, type: 3}
       propertyPath: audioMusic
       value: 
