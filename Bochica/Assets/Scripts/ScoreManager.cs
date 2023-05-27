@@ -11,9 +11,7 @@ public class ScoreManager : MonoBehaviour
     public int currentScore;
     public TextMeshProUGUI textItems;
 
-    public SpriteRenderer spriteFadeIn;
-    public AudioSource audioMusic;
-    public int scene;
+   
     private int totalItems = 9; 
 
     public void Start()
