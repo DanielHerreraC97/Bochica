@@ -13,7 +13,7 @@ public class ScoreManager : MonoBehaviour
 
     public SpriteRenderer spriteFadeIn;
     public AudioSource audioMusic;
-    public int scene;
+    private int scene;
     private int totalItems = 9; 
 
     public void Start()
@@ -32,7 +32,6 @@ public class ScoreManager : MonoBehaviour
     {
         if(currentScore >= totalItems)
         {
-            // currentScore += scoreAmmount;
             SceneTransition();
             Debug.Log("Congratulations!");
         }

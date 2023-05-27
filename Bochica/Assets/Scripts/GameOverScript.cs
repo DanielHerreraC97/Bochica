@@ -20,13 +20,10 @@ public class GameOverScript : MonoBehaviour
         Invoke("ActivateGameOver", 2.5f);
 
     }
-
     private void ActivateGameOver()
     {
         gameOver.SetActive(true);
     }
-
-
     void Update()
     {
         if (gameOver.activeSelf && Input.GetKeyDown(KeyCode.W))
