@@ -15,10 +15,11 @@ public class DialogueIndigenous : MonoBehaviour
     private int index;
     public float wordSpeed;
     public bool playerIsClosed;
+    private bool isGetCum = false;
 
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space) && playerIsClosed)
+        if(Input.GetKeyDown(KeyCode.Space) && playerIsClosed && !isGetCum)
         { 
            if(dialoguePanel.activeInHierarchy) 
            {
@@ -27,7 +28,7 @@ public class DialogueIndigenous : MonoBehaviour
            else
            {
                 dialoguePanel.SetActive(true);
-                StartCoroutine(Typing());
+                StartCoroutine(Typing());  
            }
         }
     }
@@ -41,11 +42,13 @@ public class DialogueIndigenous : MonoBehaviour
 
     IEnumerator Typing()
     {
+        isGetCum = true;
         foreach(char letter in dialogueLines[index])
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
         }
+        isGetCum = false;
     }
 
     public void NextLine()
