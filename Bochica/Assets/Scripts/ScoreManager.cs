@@ -13,13 +13,14 @@ public class ScoreManager : MonoBehaviour
 
     public SpriteRenderer spriteFadeIn;
     public AudioSource audioMusic;
-    private int scene;
+    private int scene = 3;
 
     private int totalItems = 9; 
 
     public void Start()
     {
         textItems = GetComponent<TextMeshProUGUI>();
+        spriteFadeIn.DOFade(0, 0);
     }
 
     public void Update()
@@ -31,15 +32,14 @@ public class ScoreManager : MonoBehaviour
     //Add items
     public void AddItem(int scoreAmmount)
     {
-        if(currentScore >= totalItems)
+        currentScore += scoreAmmount;
+        if (currentScore >= totalItems)
         {
             SceneTransition();
             Debug.Log("Congratulations!");
         }
-        else
-        {
-            currentScore += scoreAmmount;
-        }
+ 
+
     }
 
     public void SceneTransition()
