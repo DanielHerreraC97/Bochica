@@ -1770,6 +1770,8 @@ PlayableDirector:
     value: {fileID: 392985104}
   - key: {fileID: 7324226864879040987, guid: 5e5b36b81c51e7844abeab9d64311f5f, type: 2}
     value: {fileID: 1622082653}
+  - key: {fileID: -6575468958205798836, guid: 5e5b36b81c51e7844abeab9d64311f5f, type: 2}
+    value: {fileID: 1808577857}
   m_ExposedReferences:
     m_References: []
 --- !u!1 &1174962311
@@ -2015,9 +2017,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328b6144d22f69646bafd8c7eedfbb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInDuration: 2
+  fadeInDuration: 0.5
   fadeOutDuration: 1
-  fadeDelay: 2
+  fadeDelay: 2.5
 --- !u!114 &1322326454
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2282,7 +2284,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1622082655
 Transform:
   m_ObjectHideFlags: 0
@@ -2564,7 +2566,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1808577858
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2782,9 +2784,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 328b6144d22f69646bafd8c7eedfbb85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fadeInDuration: 2
+  fadeInDuration: 1.5
   fadeOutDuration: 1
-  fadeDelay: 2
+  fadeDelay: 2.5
 --- !u!114 &1838492933
 MonoBehaviour:
   m_ObjectHideFlags: 0

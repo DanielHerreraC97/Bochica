@@ -17,11 +17,16 @@ public class GameOverScript : MonoBehaviour
 
     private void ActiveMenu(object sender, EventArgs e)
     {
-        gameOver.SetActive(true);
-            
+        Invoke("ActivateGameOver", 2.5f);
+
     }
 
-  
+    private void ActivateGameOver()
+    {
+        gameOver.SetActive(true);
+    }
+
+
     void Update()
     {
         if (gameOver.activeSelf && Input.GetKeyDown(KeyCode.W))
