@@ -14,6 +14,7 @@ public class ScoreManager : MonoBehaviour
     public SpriteRenderer spriteFadeIn;
     public AudioSource audioMusic;
     private int scene;
+
     private int totalItems = 9; 
 
     public void Start()
