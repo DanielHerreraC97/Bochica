@@ -9,7 +9,7 @@ public class DialogueIndigenous : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public TMP_Text dialogueText;
-    public GameObject contButton;
+   // public GameObject contButton;
 
     public string[] dialogueLines;
     private int index;
@@ -29,10 +29,6 @@ public class DialogueIndigenous : MonoBehaviour
                 dialoguePanel.SetActive(true);
                 StartCoroutine(Typing());
            }
-        }
-        if(dialogueText.text == dialogueLines[index])
-        {
-            contButton.SetActive(true);
         }
     }
 
@@ -54,7 +50,7 @@ public class DialogueIndigenous : MonoBehaviour
 
     public void NextLine()
     {
-        contButton.SetActive(false);
+     //   contButton.SetActive(false);
 
         if(index < dialogueLines.Length -1)
         {
