@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
@@ -16,7 +17,8 @@ public class PlataformaFalling : MonoBehaviour
 
     [SerializeField]
     private ParticleSystem dustParticle;
-    private bool hasPlayed = false;
+    
+   
 
 
     // Start is called before the first frame update

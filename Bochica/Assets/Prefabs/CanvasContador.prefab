@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.10952111, y: 0}
   m_AnchorMax: {x: 0.8097017, y: 0.2717741}
-  m_AnchoredPosition: {x: 343.95245, y: -25.999939}
+  m_AnchoredPosition: {x: 343.95245, y: -25.99997}
   m_SizeDelta: {x: -343.96002, y: -1.776947}
   m_Pivot: {x: 0.11, y: 0.5}
 --- !u!222 &1361330316
@@ -288,7 +288,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1967163069
 RectTransform:
   m_ObjectHideFlags: 0
@@ -674,6 +674,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentScore: 0
   textItems: {fileID: 0}
+  spriteFadeIn: {fileID: 0}
+  audioMusic: {fileID: 0}
+  scene: 3
 --- !u!1 &6392822340425956030
 GameObject:
   m_ObjectHideFlags: 0

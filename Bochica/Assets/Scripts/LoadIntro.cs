@@ -7,6 +7,7 @@ using UnityEngine.SceneManagement;
 public class LoadIntro : MonoBehaviour
 {
     public SpriteRenderer sprite;
+    public AudioSource audioMusic;
     void Start()
     {
         
@@ -14,8 +15,9 @@ public class LoadIntro : MonoBehaviour
 
     public void ChangeScene()
     {
-        Camera.main.DOOrthoSize(-0.8f, 6);
-        sprite.DOFade(1, 6).OnComplete(() =>
+        Camera.main.DOOrthoSize(-0.8f, 5);
+        audioMusic.DOFade(0, 5);
+        sprite.DOFade(1, 5).OnComplete(() =>
         {
             SceneManager.LoadScene("Introduction");
         });
