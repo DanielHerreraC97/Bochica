@@ -30,19 +30,27 @@ public class ScoreManager : MonoBehaviour
     //Add items
     public void AddItem(int scoreAmmount)
     {
-        if(currentScore > 8)
+        if(currentScore >= totalItems)
         {
-            currentScore += scoreAmmount;
-           
+            // currentScore += scoreAmmount;
+            SceneTransition();
             Debug.Log("Congratulations!");
         }
         else
         {
             currentScore += scoreAmmount;
         }
-        
     }
 
-    
+    public void SceneTransition()
+    {
+        audioMusic.DOFade(0, 3);
+        spriteFadeIn.DOFade(1, 2).OnComplete(() =>
+        {
+            SceneManager.LoadScene(scene);
+        });
+    }
+
+
 
 }
