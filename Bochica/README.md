@@ -1,2 +1,2 @@
 # Bochica
-Repository created for hosting the project associated to the II Unity Jam 
+Repository created for hosting the project associated to the Unity III Second Jam 
