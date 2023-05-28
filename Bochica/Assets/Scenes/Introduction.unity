@@ -1166,7 +1166,6 @@ GameObject:
   m_Component:
   - component: {fileID: 739458956}
   - component: {fileID: 739458957}
-  - component: {fileID: 739458958}
   m_Layer: 5
   m_Name: ---TEXTOS---
   m_TagString: Untagged
@@ -1223,21 +1222,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &739458958
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 739458955}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 328b6144d22f69646bafd8c7eedfbb85, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fadeInDuration: 3.72
-  fadeOutDuration: 1
-  fadeDelay: 0
 --- !u!1 &809528813
 GameObject:
   m_ObjectHideFlags: 0
