@@ -26,7 +26,7 @@ public class GameOverScript : MonoBehaviour
     }
     void Update()
     {
-        if (gameOver.activeSelf && Input.GetKeyDown(KeyCode.W))
+        if (gameOver.activeSelf && Input.GetKeyDown(KeyCode.Space))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
