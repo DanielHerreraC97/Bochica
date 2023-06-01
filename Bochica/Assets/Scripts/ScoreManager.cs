@@ -36,12 +36,9 @@ public class ScoreManager : MonoBehaviour
         if (currentScore >= totalItems)
         {
             SceneTransition();
-            Debug.Log("Congratulations!");
         }
- 
-
     }
-
+    //Go to end escene
     public void SceneTransition()
     {
         audioMusic.DOFade(0, 3);

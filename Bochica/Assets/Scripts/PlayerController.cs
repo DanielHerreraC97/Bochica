@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         animator.SetBool("Grounded", grounded);
         //Jump
-        if (Input.GetKeyDown(KeyCode.Space) && grounded)
+        if (Input.GetKeyDown(KeyCode.W) && grounded)
         {
             PlayJumpSound();
             rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
