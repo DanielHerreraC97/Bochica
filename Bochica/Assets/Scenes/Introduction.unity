@@ -932,8 +932,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1450,8 +1450,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 16777215
+  m_fontColor: {r: 1, g: 1, b: 1, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2757,7 +2757,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteFadeOut: {fileID: 2700141396551567593}
-  text: {fileID: 0}
+  text:
+  - {fileID: 809528815}
+  - {fileID: 177666250}
 --- !u!1 &1628533711
 GameObject:
   m_ObjectHideFlags: 0
