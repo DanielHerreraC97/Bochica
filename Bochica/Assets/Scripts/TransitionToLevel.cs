@@ -13,7 +13,7 @@ public class TransitionToLevel : MonoBehaviour
     public AudioSource audioMusic;
     public int scene;
 
-
+    //Music transition, text transition, level transition
     void OnEnable()
     {
         audioMusic.DOFade(0, 3);

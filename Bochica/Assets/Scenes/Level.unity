@@ -123,11 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &74443046 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8445032832241331222, guid: b7f3427c62e14164fa98d27212adb701, type: 3}
-  m_PrefabInstance: {fileID: 1601010868}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &153066790 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8445032832241331218, guid: b7f3427c62e14164fa98d27212adb701, type: 3}
@@ -1468,18 +1463,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8445032832241331218, guid: b7f3427c62e14164fa98d27212adb701, type: 3}
   m_PrefabInstance: {fileID: 1601010868}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1334097337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 74443046}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a1cd885d92dc21648b8db71c47094487, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1339461173
 GameObject:
   m_ObjectHideFlags: 0
@@ -54523,7 +54506,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1361330315, guid: e6c3baaa554fb8a43ad093a7f9aab2c8, type: 3}
       propertyPath: m_text
-      value: Press SPACE to try again
+      value: Press W to try again
       objectReference: {fileID: 0}
     - target: {fileID: 1967163068, guid: e6c3baaa554fb8a43ad093a7f9aab2c8, type: 3}
       propertyPath: m_IsActive

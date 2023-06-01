@@ -8,6 +8,8 @@ public class LoadIntro : MonoBehaviour
 {
     public SpriteRenderer sprite;
     public AudioSource audioMusic;
+
+    //Go to intro
     public void ChangeScene()
     {
         Camera.main.DOOrthoSize(-0.8f, 5);

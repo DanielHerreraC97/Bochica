@@ -11,24 +11,26 @@ public class GameOverScript : MonoBehaviour
     void Start()
     {
         playerController = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
-        playerController.MuerteJugador += ActiveMenu;
+        playerController.muerteJugador += ActiveMenu;
     }
 
-
+    void Update()
+    {
+        //Restart game
+        if (gameOver.activeSelf && Input.GetKeyDown(KeyCode.W))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
+    }
     private void ActiveMenu(object sender, EventArgs e)
     {
         Invoke("ActivateGameOver", 2.5f);
 
     }
+    //Active panel game over
     private void ActivateGameOver()
     {
         gameOver.SetActive(true);
     }
-    void Update()
-    {
-        if (gameOver.activeSelf && Input.GetKeyDown(KeyCode.Space))
-        {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-    }
+    
 }

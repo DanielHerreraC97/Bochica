@@ -15,7 +15,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     public Rigidbody2D rb2d;
     public Animator animator;
     public GameObject indigenous;
-    public event EventHandler MuerteJugador;
+    public event EventHandler muerteJugador;
 
     [SerializeField] private AudioSource jumpSound;
     [SerializeField] private AudioSource deathSound;
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
     {
         animator.SetBool("Grounded", grounded);
         //Jump
-        if (Input.GetKeyDown(KeyCode.W) && grounded)
+        if (Input.GetKeyDown(KeyCode.Space) && grounded)
         {
             PlayJumpSound();
             rb2d.AddForce(Vector2.up * jumpPower, ForceMode2D.Impulse);
@@ -94,7 +94,7 @@ public class PlayerController : MonoBehaviour  //BOCHICA
             PlayDeathSound();
             animator.SetTrigger("Die");
             StartCoroutine(ActiveDie());                      
-            MuerteJugador?.Invoke(this, EventArgs.Empty);
+            muerteJugador?.Invoke(this, EventArgs.Empty);
         }
 
         if (collision.CompareTag("Item"))
@@ -122,5 +122,3 @@ public class PlayerController : MonoBehaviour  //BOCHICA
 
     }
 }
-
-

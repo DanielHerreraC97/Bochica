@@ -9,7 +9,6 @@ public class DialogueIndigenous : MonoBehaviour
 {
     public GameObject dialoguePanel;
     public TMP_Text dialogueText;
-   // public GameObject contButton;
 
     public string[] dialogueLines;
     private int index;
@@ -19,6 +18,7 @@ public class DialogueIndigenous : MonoBehaviour
 
     private void Update()
     {
+        //Show dialogue
         if(Input.GetKeyDown(KeyCode.Space) && playerIsClosed && !isGetCum)
         { 
            if(dialoguePanel.activeInHierarchy) 
@@ -32,14 +32,13 @@ public class DialogueIndigenous : MonoBehaviour
            }
         }
     }
-
     public void zeroText() 
     {
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
     }
-
+    //Write words
     IEnumerator Typing()
     {
         isGetCum = true;
@@ -50,11 +49,9 @@ public class DialogueIndigenous : MonoBehaviour
         }
         isGetCum = false;
     }
-
+    //Next line in dialogue
     public void NextLine()
     {
-     //   contButton.SetActive(false);
-
         if(index < dialogueLines.Length -1)
         {
             index++;
@@ -66,7 +63,7 @@ public class DialogueIndigenous : MonoBehaviour
             zeroText() ;
         }
     }
-
+    //Player near
     private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Player"))

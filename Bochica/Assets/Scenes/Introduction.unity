@@ -1211,7 +1211,7 @@ MonoBehaviour:
     Use   or    to move to the right
 
     Press        
-    or    to Jump.'
+    to Jump.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d39e1e30ef16464fbfe19f50fa26b58, type: 2}
   m_sharedMaterial: {fileID: -6184500042725564031, guid: 1d39e1e30ef16464fbfe19f50fa26b58, type: 2}
@@ -2085,7 +2085,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1252380155
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2757,6 +2757,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteFadeOut: {fileID: 2700141396551567593}
+  text: {fileID: 0}
 --- !u!1 &1628533711
 GameObject:
   m_ObjectHideFlags: 0
@@ -3365,7 +3366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -93, y: -115}
+  m_AnchoredPosition: {x: -35, y: -115}
   m_SizeDelta: {x: 506.124, y: 48.329}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1962199484

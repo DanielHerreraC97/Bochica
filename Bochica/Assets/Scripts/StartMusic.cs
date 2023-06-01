@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class StartMusic : MonoBehaviour
 {
+    //Start ambiental music
     private int delay = 3;
     private AudioSource audioSource;
     
@@ -11,14 +12,10 @@ public class StartMusic : MonoBehaviour
     {
        Invoke("PlayAudio", delay);
     }
-
-  
     void Update()
     {
         audioSource = gameObject.GetComponent<AudioSource>();
-        
     }
-
     private void PlayAudio()
     {
         audioSource.Play();
