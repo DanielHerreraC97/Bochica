@@ -4178,7 +4178,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440172830}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -42.56652, y: 2.5361104, z: -10}
+  m_LocalPosition: {x: -44.562626, y: 2.5263646, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9680,8 +9680,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279092945
-  m_fontColor: {r: 0.8207547, g: 0.7755228, b: 0.051619705, a: 1}
+    rgba: 902865
+  m_fontColor: {r: 0.8207547, g: 0.7755228, b: 0.051619705, a: 0}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -9939,6 +9939,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteFadeOut: {fileID: 716048466}
+  text: {fileID: 1815702500}
 --- !u!4 &1980480926
 Transform:
   m_ObjectHideFlags: 0
